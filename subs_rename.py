@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 import os
 
-VIDEO_EXTS = ('.avi', '.mkv')
+VIDEO_EXTS = ('.avi', '.mkv', '.mp4')
 
 def ask_dialog(left_list, right_list):
     format_lenth = len(max(left_list, key=len)) + 1
